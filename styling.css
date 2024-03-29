@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #555576;
+    color: white;
+    font-size: 23px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 95px;
+    background-color: rgb(12, 12, 12);
+}
+
+.left {
+    font-size: 1.7rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: floralwhite;
+}
+
+nav ul li a:hover {
+    color: rgb(185, 94, 144);
+    font-size: 1.1rem;
+}
+main
+{
+    height: 120vw;
+    margin: 0;
+    padding: 0;
+}
+
+.first-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 45px 0;
+}
+
+.leftsection {
+    display: flex;
+    justify-content: center;
+    width: 189%;
+}
+
+.rightsection {
+    color: black;
+
+    font-size: 25px;
+    margin: 30px;
+}
+
+.image {
+    height: 410px;
+    border-radius: 47%;
+}
+
+.second-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 45px 0;
+}
+
+.second-section div {
+    color: black;
+    font-size: 5rem;
+}
+
+hr {
+    background-color: white;
+    height: 3px;
+}
+.concern
+{
+    height: 60vw;
+    margin: 0;
+    padding: 0;
+}
+
+.first {
+    background: white;
+    width: 4px;
+    height: 800px;
+    margin: 64px;
+}
+
+.base1 {
+    background: white;
+    width: 126px;
+    height: 4px;
+}
+
+.title1 {
+    display: block;
+    font-size: 34px;
+    font-style: italic;
+    left: 130px;
+    top: -18px;
+    position: relative;
+    color: black;
+    width: 143px;
+}
+
+.desc1 {
+    display: block;
+    font-size: 13px;
+    left: 130px;
+    top: -14px;
+    position: relative;
+    color: black;
+    width: 143px;
+}
+
+.base2 {
+    position: relative;
+    background: white;
+    width: 200px;
+    height: 4px;
+    top: 232px;
+}
+
+.title2 {
+    display: block;
+    font-size: 34px;
+    font-style: italic;
+    left: 210px;
+    top: -18px;
+    position: relative;
+    color: black;
+    width: max-content;
+}
+
+.desc2 {
+    width: 327px;
+    display: block;
+    font-size: 13px;
+    left: 203px;
+    top: -7px;
+    position: relative;
+    color: black;
+
+}
+
+.title3 {
+    display: block;
+    font-size: 34px;
+    font-style: italic;
+    left: 310px;
+    top: 397px;
+    position: relative;
+    color: black;
+    width: max-content;
+}
+
+.desc3 {
+    width: 327px;
+    display: block;
+    font-size: 13px;
+    left: 304px;
+    top: 411px;
+    position: relative;
+    color: black;
+
+}
+
+.second {
+    top: -366px;
+    left: 387px;
+    position: relative;
+    background: white;
+    width: 4px;
+    height: 302px;
+    margin: 64px;
+}
+
+.last {
+    margin-right: 172px;
+    margin-left: 64px;
+    position: relative;
+    background: white;
+    width: auto;
+    height: 4px;
+    top: -1363px;
+}
+
+.title4 {
+    display: block;
+    font-size: 34px;
+    font-style: italic;
+    left: 746px;
+    top: 451px;
+    position: relative;
+    color: black;
+    width: max-content;
+}
+
+.desc4 {
+    width: 172px;
+    display: block;
+    font-size: 13px;
+    left: 751px;
+    top: 468px;
+    position: relative;
+    color: black;
+
+}
+
+.third {
+    top: -607px;
+    left: 832px;
+    position: relative;
+    background: white;
+    width: 4px;
+    height: 178px;
+    margin: 64px;
+}
+
+.title5 {
+    display: block;
+    font-size: 34px;
+    font-style: italic;
+    left: -216px;
+    top: -41px;
+    position: relative;
+    color: black;
+    width: 221px;
+}
+
+.desc5 {
+    display: block;
+    font-size: 13px;
+    left: -221px;
+    top: -27px;
+    position: relative;
+    color: black;
+    width: 164px;
+}
+
+.fourth {
+    top: -1359px;
+    left: 1343px;
+    position: relative;
+    background: white;
+    width: 4px;
+    height: 690px;
+}
+
+.base5 {
+    top: -34px;
+    left: 1153px;
+    position: relative;
+    background: white;
+    width: 126px;
+    height: 4px;
+}
+footer {
+    color: white;
+    background-color: black;
+    height: 80px;
+}
+footer .footer-first {
+    display: flex;
+    margin: 12px 12px;
+}
+
+footer .text-right {
+    text-align: center;
+}
